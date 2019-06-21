@@ -1,0 +1,68 @@
+* {
+    color: rgb(115, 187, 163);
+    font-family: cursive;
+}
+body {
+    background-image: url('../img/background.jpeg');
+    background-size: 100%;
+}
+h1 {
+    font-size: 4em;
+    color: darkorange;
+}
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(42, 47, 56, 0.800);
+    position: absolute;
+    bottom: 0;
+}
+footer, p {
+    color: white;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.headerDiv {
+    background-color: rgba(42, 47, 56, 0.800);
+    width: 100vw;
+    height: 150px;
+    position: absolute;
+    top: 0;
+}
+.headerDiv > h1 {
+    text-align: center;
+}
+.menuDiv > ul {
+display: flex;
+}
+li {
+    margin-left: 40px;
+    list-style-type: none;
+}
+main {
+    margin-top: 200px;
+    overflow: auto;
+    height: 70vh;
+}
+
+form {
+    width: 20vw;
+    margin: auto;
+    display: grid;
+}
+
+.btn-danger {
+    width: 120px;
+}
+
+.hidden {
+    display: none;
+}
+
+.td_form {
+    position: relative;
+}
+.form_delete {
+    width: 20px;
+    position: absolute;
+}
